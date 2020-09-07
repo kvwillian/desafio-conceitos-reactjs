@@ -13,8 +13,8 @@ function App() {
   }, []);
   async function handleAddRepository() {
     const response = await api.post('repositories', {
-      title: 'Seya',
-      url: 'https://github.com/seya',
+      title: 'kvwillian',
+      url: 'https://github.com/kvwillian',
       techs: [
         'Node.js',
         'React.js'
