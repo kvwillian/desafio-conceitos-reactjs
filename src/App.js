@@ -20,6 +20,7 @@ function App() {
         'React.js'
       ]
     })
+    const repository = response.data;
 
     setRepositories([ ...repositories, response.data]);
   }
